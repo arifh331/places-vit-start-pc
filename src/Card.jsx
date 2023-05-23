@@ -4,8 +4,8 @@ import './index.css'
 
 import { useEffect, useState } from 'react';
 
-// const apiKey = process.env.API_KEY;
-const apiKey=`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`
+ const apiKey = process.env.API_KEY;
+
 
 const url = `https://api.openai.com/v1/images/generations`;
 const bearer = 'Bearer ' + apiKey;
