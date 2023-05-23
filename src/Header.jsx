@@ -8,7 +8,7 @@ export default function Header(){
         
         <img src='/assets/earth-icon.png' className='hd-img'/>
         
-        <h4 className='hd-title'>my travel journal </h4>
+        <h4 className='hd-title'>fantasy travel journal </h4>
         
         
         

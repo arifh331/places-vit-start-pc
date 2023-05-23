@@ -4,12 +4,14 @@ import './index.css'
 
 import { useEffect, useState } from 'react';
 
- const apiKey = process.env.API_KEY;
+const apiKey = process.env.API_KEY;
+ 
+
 
 
 const url = `https://api.openai.com/v1/images/generations`;
 const bearer = 'Bearer ' + apiKey;
-const paramdesc = 'Generate a visually imposing image from this description in the style of Monet ';
+const paramdesc = 'Generate a visually imposing image from this description ';
 
 export default function Card(props) {
   const [loading, setLoading] = useState(true);
@@ -60,7 +62,7 @@ export default function Card(props) {
       </div>
       <div className='everything'>
         <div className='loc-block'>
-          <img src='./location-icon.png' className='loc-img' />
+          <img src='/assets/location-icon.png' className='loc-img' />
           <span className='location'>{props.item.location}</span>
           <button className="generate-button" onClick={()=>callAI(props.item.description)}>Regenerate</button>
 
