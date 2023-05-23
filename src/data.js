@@ -6,7 +6,7 @@ export default [
         startDate: "01 Jan, 2023",
         endDate: "08 Jan, 2023",
         description: "One of the biggest squares in Europe, this stylish area in downtown Lisbon often displays beautiful works of art and sculpture, and is a great place for a leisurely stroll.",
-        imageUrl: "./assets/por.jpg"
+        imageUrl: "/assets/por.jpg"
     },
     {
         title: "Times Square",
@@ -15,7 +15,7 @@ export default [
         startDate: "Dec 25, 2022",
         endDate: "Dec 25, 2022",
         description: "Times Square is one of the most iconic places in not just New York City but also America. There is always an enormous bustle of people surrounded by hundreds of enormous screens. Many will however say it is underwhelming...",
-        imageUrl: "./assets/timesq.jpg"
+        imageUrl: "/assets/timesq.jpg"
     },
     
     {
@@ -25,7 +25,7 @@ export default [
         startDate: "02 February, 2023",
         endDate: "18 February, 2023",
         description: "This one of the most avenues in America. Everywhere along this street feels musty and disgusting. I made an unfortunate choice to check out the mall here after not coming for a while and it was the biggest mistake in 2023. Do not come here...",
-        imageUrl: "./assets/jcolmall.jpeg"
+        imageUrl: "/assets/jcolmall.jpeg"
     }
 ]
 
