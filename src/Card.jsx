@@ -4,7 +4,8 @@ import './index.css'
 
 import { useEffect, useState } from 'react';
 
-const apiKey = process.env.API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
+
  
 
 
