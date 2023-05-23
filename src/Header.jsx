@@ -6,7 +6,7 @@ export default function Header(){
         
         <nav>
         
-        <img src='./assets/earth-icon.png' className='hd-img'/>
+        <img src='./src/assets/earth-icon.png' className='hd-img'/>
         
         <h4 className='hd-title'>my travel journal </h4>
         
