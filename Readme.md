@@ -21,7 +21,7 @@ Come and explore these fantastic places, and see if they match your imagination!
 
 ## Live Demo
 
-Check out the live demo of the Fantasy Travel Journal: [Demo Link](https://example.com)
+Check out the live demo of the Fantasy Travel Journal: [Demo Link](https://fantasy-travel-journal.netlify.app/)
 
 ## Usage
 
